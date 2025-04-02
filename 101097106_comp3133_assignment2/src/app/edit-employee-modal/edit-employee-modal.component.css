@@ -1,0 +1,16 @@
+.edit-modal {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  

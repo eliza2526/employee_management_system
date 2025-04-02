@@ -1,0 +1,17 @@
+<div class="edit-modal">
+    <h2>Edit Employee</h2>
+    <form #editForm="ngForm">
+      <label for="firstname">First Name:</label>
+      <input id="firstname" [(ngModel)]="editableEmployee.firstname" name="firstname" required />
+  
+      <label for="lastname">Last Name:</label>
+      <input id="lastname" [(ngModel)]="editableEmployee.lastname" name="lastname" required />
+  
+      <label for="email">Email:</label>
+      <input id="email" [(ngModel)]="editableEmployee.email" name="email" required />
+  
+      <button type="button" (click)="updateEmployee()">Update</button>
+      <button type="button" (click)="close()">Cancel</button>
+    </form>
+  </div>
+  
