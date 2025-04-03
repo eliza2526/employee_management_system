@@ -16,15 +16,10 @@ Test the response to ensure they return the correct response objects and error i
 - http://localhost:4000/graphql
 
 - some emp id to work around:
-* 67b1880b6e2a5d4d5d96f88a
-* 67b2532cf459ba916b167a83
-* 67b1880b6e2a5d4d5d96f88b
-* 67b1880b6e2a5d4d5d96f88c
-* 67b1880b6e2a5d4d5d96f88d
-* 67b188e16e523fd9ee8c3819
-* 67b191d9af7d514b043db89c
+* 67ec5560758523009abcfeb2
+* 67ec5560758523009abcfeb5
+
 
 ### User IDs
-* username: user1 password: password1
-* username: user2 password: password2
-* username: newuser password: password123
+* username: user24 password: pass24
+* username: user25 password: pass25
